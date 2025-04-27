@@ -1,0 +1,30 @@
+.navbar {
+    background: linear-gradient(90deg, #141e30, #243b55);
+}
+.navbar-brand {
+    font-weight: bold;
+    font-size: 28px;
+    color: #00ffd5;
+}
+.nav-link {
+    color: #ffffff !important;
+    font-weight: 500;
+    margin-right: 15px;
+    transition: all 0.3s ease;
+}
+.nav-link:hover {
+    color: #00ffd5 !important;
+    transform: scale(1.1);
+}
+.btn-custom {
+    background-color: #00ffd5;
+    color: #141e30;
+    font-weight: 600;
+    border-radius: 30px;
+    padding: 8px 20px;
+    transition: all 0.3s ease;
+}
+.btn-custom:hover {
+    background-color: #00c3a5;
+    color: white;
+}
