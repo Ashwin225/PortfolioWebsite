@@ -20,7 +20,7 @@ def home(request):
 
 
    
-    return render(request,'home.html') #nammal inni oru create cheyanam eey request and response kanikan
+    return render(request,'index.html') #nammal inni oru create cheyanam eey request and response kanikan
 
 def thankyou(request):
     return render(request,'thankyou.html')
